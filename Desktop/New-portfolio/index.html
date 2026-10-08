@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/> <!--swiper-->
+  <script src="https://kit.fontawesome.com/0b2c600f1a.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+</head>
+<body>
+  <header>
+    <a href="index.html">Logo</a>
+    <nav class="navbar-container">
+      <div id="menuToggle" class="menu-toggle">MENU<i class="fa-solid fa-bars"></i></div>
+      <ul id="menu" class="link-containter">
+        <li><a class="navlink" href="index.html"><i class="fa-regular fa-house"></i><span>Home</span></a></li>
+        <li><a class="navlink" href="index.html"><i class="fa-regular fa-user"></i><span>About</span></a></li>
+        <li><a class="navlink" href="index.html"><i class="fa-solid fa-medal"></i><span>Case Studies</span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-grid">
+          <div>
+            <div class="hero-eyebrow">
+              <a href="">CONTENT PUBLISING</a><span> | </span><a href="">SEO</a><span> | </span>
+              <a href="">CMS MANAGEMENT</a><span> | </span><a href="">UI/UX</a></div>
+            <h1>I can help you Publish your Web Contents!</h1>
+            <p>Let's bring your website content to life through accurate publishing, responsive engaging layouts, and seamless user experiences. From managing content and optimizing on-page elements to conducting thorough quality checks. I ensure every page meets brand standards and performs at its best.</p>
+            <a class="button-1" href="#"><button>Work with me</button></a>
+            <a class="button-2" href="#"><button>View my Projects</button></a>
+            <div class="contact-icon">
+              <a href=""><i class="fa-brands fa-square-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+              <a href=""><i class="fa-regular fa-envelope"></i></a>
+            </div> 
+          </div>
+          <div class="hero-preview-container">
+            <div >       
+              <img id="contactId" class="hero-img" src="images/hero-section-image.png" alt="">
+            <div id="caseStudyId" class="case-studies-preview">
+             
+              <div class="swiper"> <!-- swiper container-->
+                <h2>My Case SEO Studies</h2>
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">Slide 1</div>
+                  <div class="swiper-slide">Slide 2</div>
+                  <div class="swiper-slide">Slide 3</div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+</body>
+</html>
