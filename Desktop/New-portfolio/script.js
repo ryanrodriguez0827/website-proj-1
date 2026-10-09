@@ -1,10 +1,12 @@
 
 //HERO SECTION BUTTON
+const showBtn = document.querySelector("#btn1");
+const showBtn2 = document.querySelector("#btn2");
 const showImage = document.querySelector("#contactId");
-const showBtn = document.querySelector(".button-1");
-const showBtn2 = document.querySelector(".button-2");
 const showContent = document.querySelector("#caseStudyId");
 const hideContent = document.querySelector("#contactId");
+
+
 
 
 showBtn.addEventListener("click", () => {  //WORK WITH ME btn
@@ -13,9 +15,9 @@ showBtn.addEventListener("click", () => {  //WORK WITH ME btn
   showContent.style.display = "none"
 });
 
-showBtn2.addEventListener("click", () => {   //VIEW MY PROJECTS btn
-  showContent.style.display = "block"
-  hideContent.style.display = "none"
+showBtn2.addEventListener("click", () => {   //LEARN MORE btn
+  showContent.style.display = "none"
+  hideContent.style.display = "block"
 });
 
 
